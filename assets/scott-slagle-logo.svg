@@ -1,0 +1,26 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="260" height="280" viewBox="0 0 260 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scott Slagle logo">
+  <defs>
+    <radialGradient id="radialBlueDev" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#93C5FD"></stop>
+      <stop offset="50%" stop-color="#3B82F6"></stop>
+      <stop offset="100%" stop-color="#1E3A8A"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="30" y="10" width="200" height="200" rx="22" fill="url(#radialBlueDev)"></rect>
+
+  <!-- Calligraphic Initials -->
+  <text x="130" y="115" text-anchor="middle" dominant-baseline="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="104" font-weight="400" letter-spacing="-10" fill="#FFFFFF">
+    SS
+  </text>
+
+  <!-- Divider -->
+  <line x1="90" y1="230" x2="170" y2="230" stroke="#3B82F6" stroke-width="1" opacity="0.85"></line>
+
+  <!-- Name -->
+  <text x="130" y="260" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="2.5" fill="#1E3A8A">
+    SCOTT SLAGLE
+  </text>
+</svg>
