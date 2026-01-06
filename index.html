@@ -90,27 +90,57 @@
             <br><br>
             I'm currently working through the Frontend Simplified Boot camp to solidify my knowledge and gain hands-on experience in building web applications. I'm excited to connect with <b class="blue">like-minded professionals</b> and explore opportunities in the tech industry.
           </p>
-          <div class="modal__languages">
-            <figure class="modal__language">
-              <img class="modal__language--img"><i class="devicon-html5-plain colored"></i></img>
-              <span class="language__name">HTML</span> 
-              </figure>             
-            <figure class="modal__language">
-              <img class="modal__language--img"><i class="devicon-css3-plain colored"></i></img>
-              <span class="language__name">CSS</span> 
-              </figure>         
-            <figure class="modal__language">
-              <img class="modal__language--img"><i class="devicon-javascript-plain colored"></i></img>
-              <span class="language__name">JavaScript</span> 
-              </figure>  
-            <figure class="modal__language">
-              <img class="modal__language--img"><i class="devicon-react-original colored"></i></img>
-              <span class="language__name">React</span>
-              </figure> 
-          </div>
+<div class="modal__languages">
+  <figure class="modal__language">
+    <i class="devicon-html5-plain colored modal__language--icon"></i>
+    <span class="language__name">HTML</span>
+  </figure>
+  <figure class="modal__language">
+    <i class="devicon-css3-plain colored modal__language--icon"></i>
+    <span class="language__name">CSS</span>
+  </figure>
+  <figure class="modal__language">
+    <i class="devicon-javascript-plain colored modal__language--icon"></i>
+    <span class="language__name">JavaScript</span>
+  </figure>
+  <figure class="modal__language">
+    <i class="devicon-react-original colored modal__language--icon"></i>
+    <span class="language__name">React</span>
+  </figure>
+</div>
         </div>  
-        <div class="modal__half   modal__contact">Let's have a chat!</div>
-
+        <div class="modal__half   modal__contact">
+          <h3 class="modal__title modal__title--contact">
+            Let's have a chat!
+          </h3>
+          <h4 class="modal__sub-title modal__sub-title--contact">
+            I'm currently open to new opportunities.
+          </h4>
+          <form id="contact__form" action="">
+            <div class="form__item">
+              <label class="form__item--label">Name</label>
+              <input class="input" name="user_name" type="text" required></input>
+            </div>
+             <div class="form__item">
+              <label class="form__item--label">Email</label>
+              <input class="input" name="user_email" type="email" required></input>
+            </div>
+             <div class="form__item">
+              <label class="form__item--label">Message</label>
+              <textarea class="input" name="message" type="text" required></textarea>
+            </div>
+            <button id="contact__submit" class="form__submit">
+              Send it my way
+            </button>
+          </form>
+          <div class="modal__overlay modal__overlay--loading">
+            <i class="fas fa-spinner"></i>
+          </div>
+          <div class="modal__overlay modal__overlay--success">
+            Thanks for the message. Looking forward to speaking to you soon!
+          </div>
+        </div>
+        <i class="fas fa-times modal__exit click"></i>
       </div>
     </section>
     <section>
